@@ -1,0 +1,137 @@
+body {
+box-sizing: border-box;
+background-color: #e5e5e5;
+    height: 100%;
+    width: 100%;
+    }
+    header {
+    z-index: 9;
+    width: 100%;
+    height: 92px;
+    background-color: #268f48;
+    padding: 10px 21px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .cabecalho{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .titulo {
+        color: #ffffff;
+        font-family: Righteous;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 55px;
+        letter-spacing: -0.012em;
+        text-align: center;
+        margin: -5px;
+        }
+
+        .cabecalho p {
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0em;
+            text-align: center
+            }
+.div-principal {
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 102px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-principal p{
+    color: darkolivegreen;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center
+}
+
+.tempo{
+    width: 60%;
+    height: 500px;
+    background-color: #268f48;
+    padding: 30px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempo h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.tempo img{
+    width: 80%;
+    height: 400px;
+}
+
+.botao{
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto';
+    background-color: #268f48;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botao:hover{
+    color: darkgreen;
+    background-color: #268f4765;
+}
+
+.escondido{
+    display: none;
+}
+
+.inputs{
+    width: 30%;
+    height: 200px;
+    background-color: #268f48;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 9px;
+}
+.inputs p{
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center
+}
+.pega-latitude,.pega-longitude{
+    width: 70%;
+    height: 40px;
+    margin-bottom:10px;
+    padding:5px;
+}
